@@ -1,3 +1,7 @@
+<p align="center">
+  <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+</p>
+
 <h1 align="center">Hi 👋, I'm Amrito Kundu</h1>
 <h3 align="center">Self-Taught Developer | India 🇮🇳 | Building with Python & Web Tech</h3>
 
