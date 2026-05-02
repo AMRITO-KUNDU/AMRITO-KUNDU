@@ -1,23 +1,28 @@
-<p align="center">
-  <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
-</p>
+<table>
+  <tr>
+    <td width="60%">
 
-<h1 align="center">Hi 👋, I'm Amrito Kundu</h1>
-<h3 align="center">Self-Taught Developer | India 🇮🇳 | Building with Python & Web Tech</h3>
+<h1>Hi 👋, I'm Amrito Kundu</h1>
+<h3>Self-Taught Developer | India 🇮🇳 | Building with Python & Web Tech</h3>
 
-<p align="center">
+- 🌱 Currently learning **Python & Backend Development**
+- 💡 Interested in building real-world apps & AI tools
+- ⚡ Love turning ideas into working products
+- 🎯 Focused on system design & problem solving
+
+<p>
   <a href="https://twitter.com/amrito_kundu720">
     <img src="https://img.shields.io/twitter/follow/amrito_kundu720?logo=twitter&style=for-the-badge" />
   </a>
 </p>
 
----
+  </td>
 
-### 🚀 About Me
-- 🌱 Currently learning **Python & Backend Development**
-- 💡 Interested in building real-world apps & AI tools
-- ⚡ Love turning ideas into working products
-- 🎯 Focused on improving problem-solving & system design
+  <td width="40%">
+    <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="100%">
+  </td>
+  </tr>
+</table>
 
 ---
 
