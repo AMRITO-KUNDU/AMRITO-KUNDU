@@ -1,22 +1,20 @@
-<p align="center">
-  <img src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="400"/>
-</p>
+<img align="right" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="300"/>
 
-<h1 align="center">Hi 👋, I'm Amrito Kundu</h1>
-<h3 align="center">Self-Taught Developer | India 🇮🇳 | Building with Python & Web Tech</h3>
+<h1>Hi 👋, I'm Amrito Kundu</h1>
+<h3>Self-Taught Developer | India 🇮🇳 | Building with Python & Web Tech</h3>
 
-<p align="center">
-  🌱 Currently learning <b>Python & Backend Development</b><br>
-  💡 Interested in building real-world apps & AI tools<br>
-  ⚡ Love turning ideas into working products<br>
-  🎯 Focused on system design & problem solving
-</p>
+- 🌱 Currently learning **Python & Backend Development**  
+- 💡 Interested in building real-world apps & AI tools  
+- ⚡ Love turning ideas into working products  
+- 🎯 Focused on system design & problem solving  
 
-<p align="center">
+<p>
   <a href="https://twitter.com/amrito_kundu720">
     <img src="https://img.shields.io/twitter/follow/amrito_kundu720?logo=twitter&style=for-the-badge" />
   </a>
 </p>
+
+<br clear="right"/>
 
 ---
 
@@ -24,12 +22,12 @@
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="40"/>
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40"/>
 </p>
 
 ---
