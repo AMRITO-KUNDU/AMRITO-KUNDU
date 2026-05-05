@@ -1,52 +1,64 @@
-<img align="right" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="300"/>
+<!-- 🧩 TOP AREA (add your banner later) -->
 
-<h1>Hi 👋, I'm Amrito Kundu</h1>
-<h3>Self-Taught Developer | India 🇮🇳 | Building with Python & Web Tech</h3>
+<br>
 
-- 🌱 Currently learning **Python & Backend Development**  
-- 💡 Interested in building real-world apps & AI tools  
-- ⚡ Love turning ideas into working products  
-- 🎯 Focused on system design & problem solving  
+## 👋 Hi, I'm Amrito Kundu  
+### Building real-world apps • Backend systems • AI tools
 
-<p>
-  <a href="https://twitter.com/amrito_kundu720">
-    <img src="https://img.shields.io/twitter/follow/amrito_kundu720?logo=twitter&style=for-the-badge" />
-  </a>
-</p>
+<br>
+
+<img align="right" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="260"/>
+
+### 🧠 About Me
+
+- 🌱 Learning **Python, Backend & System Design**  
+- 💡 Building **AI tools & useful applications**  
+- ⚡ Focused on **shipping real products**  
+- 🎯 Improving **problem solving & architecture skills**  
 
 <br clear="right"/>
 
----
+<br>
 
 ### 🛠️ Tech Stack
-<p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40"/>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-20232A?style=for-the-badge&logo=python"/>
+  <img src="https://img.shields.io/badge/JavaScript-20232A?style=for-the-badge&logo=javascript"/>
+  <img src="https://img.shields.io/badge/TypeScript-20232A?style=for-the-badge&logo=typescript"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react"/>
+  <img src="https://img.shields.io/badge/Node.js-20232A?style=for-the-badge&logo=node.js"/>
+  <img src="https://img.shields.io/badge/Express-20232A?style=for-the-badge&logo=express"/>
+  <img src="https://img.shields.io/badge/PostgreSQL-20232A?style=for-the-badge&logo=postgresql"/>
+  <img src="https://img.shields.io/badge/Git-20232A?style=for-the-badge&logo=git"/>
 </p>
 
----
+<br>
 
-### 🌐 Connect With Me
-<p align="left">
+### 🚀 What I'm Building
+
+- 🤖 AI-powered tools  
+- 🌐 Full-stack web apps  
+- ⚙️ Backend systems for real use cases  
+
+<br>
+
+### 🌐 Connect
+
+<p align="center">
   <a href="https://twitter.com/amrito_kundu720">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" width="30"/>
+    <img src="https://img.shields.io/badge/Twitter-111827?style=for-the-badge&logo=twitter&logoColor=white"/>
   </a>
 </p>
 
----
+<br>
 
-### 📊 GitHub Stats
+### ✨ Philosophy
+
+> Build things that people actually use.  
+> Not just projects — **products.**
+
+<br>
+
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=amrito-kundu" height="160"/>
+  <i>Simple • Useful • Real</i>
 </p>
-
----
-
-### ✨ Current Focus
-> Building clean, useful, and real-world apps instead of random projects.
