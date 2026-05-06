@@ -1,5 +1,9 @@
 <!-- 🧩 TOP AREA (add your banner later) -->
 
+<p align="center">
+  <img src="assets/dev.jpg" width="100%" height="500" />
+</p>
+
 <br>
 
 ## 👋 Hi, I'm Amrito Kundu  
