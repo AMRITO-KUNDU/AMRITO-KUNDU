@@ -1,17 +1,17 @@
-# 👋 Hi, I'm Amrito Kundu
-
-**Building real-world apps • Backend systems • AI tools**
+# Amrito Kundu
+**Software Engineer | Backend Systems | AI Tools**
 
 ---
 
-### 🧠 About Me
+### 👤 Professional Summary
 
-<img align="right" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="220"/>
+<img align="right" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="220" alt="Software Development GIF"/>
 
-*   🌱 **Learning:** Python, Backend & System Design
-*   💡 **Building:** AI tools & useful applications
-*   ⚡ **Focus:** Shipping real products
-*   🎯 **Goal:** Improving problem solving & architecture skills
+Building scalable backend systems and AI-powered tools. I focus on transforming complex ideas into functional, production-ready products with a strong emphasis on architecture and user-centric design.
+
+- 🚀 **Currently:** Shipping full-stack applications and AI integrations.
+- 🧠 **Growth:** Deep diving into System Design and Python-based automation.
+- ⚡ **Philosophy:** Projects are for learning; products are for users.
 
 <br clear="right"/>
 
@@ -19,33 +19,40 @@
 
 ### 🛠️ Tech Stack
 
-| Category | Tools & Languages |
-| :--- | :--- |
-| **Languages** | ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white) |
-| **Frontend** | ![](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) |
-| **Backend** | ![](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white) ![](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) |
-| **Database** | ![](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) |
-| **DevOps** | ![](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) |
+#### 💻 Languages & Frontend
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nextjs" />
+</p>
+
+#### ⚙️ Backend & Database
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb,firebase" />
+</p>
+
+#### 🔧 Tools & DevOps
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=git,docker,postman,github,vscode" />
+</p>
 
 ---
 
-### 🚀 What I'm Building
+### 🏗️ Focus Areas
 
-*   🤖 **AI-powered tools** for automation
-*   🌐 **Full-stack web apps** with modern UX
-*   ⚙️ **Backend systems** designed for scale
+*   **System Architecture:** Designing robust, maintainable backend infrastructures.
+*   **AI Integration:** Implementing LLMs and AI workflows.
+*   **Performance:** Optimizing database queries and API response times.
 
 ---
 
-### 🌐 Connect & Philosophy
-
-> "Build things that people actually use. Not just projects — products."
+### 🌐 Digital Presence
 
 <p align="left">
   <a href="https://twitter.com/amrito_kundu720">
-    <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Follow%20on%20X-000000?style=for-the-badge&logo=x&logoColor=white"/>
   </a>
 </p>
+
+---
 
 <p align="center">
   <i>Simple • Useful • Real</i>
