@@ -47,7 +47,7 @@ Building scalable backend systems and AI-powered tools. I focus on transforming 
 ### 🌐 Digital Presence
 
 <p align="left">
-  <a href="https://twitter.com/amrito_kundu720">
+  <a href="https://twitter.com/@amri_kundu77462">
     <img src="https://img.shields.io/badge/Follow%20on%20X-000000?style=for-the-badge&logo=x&logoColor=white"/>
   </a>
 </p>
