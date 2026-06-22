@@ -1,5 +1,5 @@
 # Amrito Kundu
-**Software Engineer | Backend Systems | AI Tools**
+**Software Engineer | AI Tools**
 
 ---
 
@@ -7,7 +7,7 @@
 
 <img align="right" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="220" alt="Software Development GIF"/>
 
-Building scalable backend systems and AI-powered tools. I focus on transforming complex ideas into functional, production-ready products with a strong emphasis on architecture and user-centric design.
+Building scalable AI-powered tools. I focus on transforming complex ideas into functional, production-ready products with a strong emphasis on architecture and user-centric design.
 
 - 🚀 **Currently:** Shipping full-stack applications and AI integrations.
 - 🧠 **Growth:** Deep diving into System Design and Python-based automation.
@@ -17,30 +17,26 @@ Building scalable backend systems and AI-powered tools. I focus on transforming 
 
 ---
 
-### 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-#### 💻 Languages & Frontend
+### 💻 Languages
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=python,js,ts,react,nextjs" />
+  <img src="https://skillicons.dev/icons?i=python,html,mysql" />
 </p>
 
-#### ⚙️ Backend & Database
+### 🔧 Tools
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=nodejs,express,postgres,mongodb,firebase" />
-</p>
-
-#### 🔧 Tools & DevOps
-<p align="left">
-  <img src="https://skillicons.dev/icons?i=git,docker,postman,github,vscode" />
+  <img src="https://skillicons.dev/icons?i=git,github,vscode" />
 </p>
 
 ---
 
 ### 🏗️ Focus Areas
 
-*   **System Architecture:** Designing robust, maintainable backend infrastructures.
-*   **AI Integration:** Implementing LLMs and AI workflows.
-*   **Performance:** Optimizing database queries and API response times.
+- **Backend Development:** Building maintainable and efficient backend applications.
+- **System Design:** Learning scalable software architecture.
+- **Python Automation:** Creating scripts and tools to automate workflows.
+- **Performance:** Writing clean, optimized, and maintainable code.
 
 ---
 
