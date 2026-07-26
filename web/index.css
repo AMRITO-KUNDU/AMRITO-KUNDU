@@ -538,6 +538,11 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+.cert-explore-btn {
+    display: inline-block;
+    margin-top: var(--gutter-normal);
+}
+
 /* --------------------------------------- */
 /* ----- Certificates Page ----- */
 /* --------------------------------------- */
