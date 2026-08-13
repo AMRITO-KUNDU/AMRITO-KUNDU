@@ -73,6 +73,12 @@ I build practical software with a focus on full-stack development, AI-assisted w
 
 ---
 
+## 🌐 Portfolio
+
+For projects, detailed work, and additional information about my experience and skills, please refer to my **[portfolio](https://portfolio-website.amritokundu719.workers.dev/)**.
+
+---
+
 <p align="center">
   <i>Simple • Useful • Built to learn, refined to last</i>
 </p>
