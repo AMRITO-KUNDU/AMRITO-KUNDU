@@ -63,10 +63,13 @@ I build practical software with a focus on full-stack development, AI-assisted w
 ## 🌐 Digital Presence
 
 <p align="left">
-  <a href="https://twitter.com/@amritokundu719">
+  <a href="https://x.com/amritokundu719">
     <img src="https://img.shields.io/badge/Follow%20on%20X-000000?style=for-the-badge&logo=x&logoColor=white"/>
   </a>
-  <a href="https://www.facebook.com/Binaryhermit1234">
+  <a href="https://www.instagram.com/amritokundu719/">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
+  </a>
+  <a href="https://www.facebook.com/Akundu719">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
   </a>
 </p>
