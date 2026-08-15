@@ -63,7 +63,7 @@ I build practical software with a focus on full-stack development, AI-assisted w
 ## 🌐 Digital Presence
 
 <p align="left">
-  <a href="https://twitter.com/@amri_kundu77462">
+  <a href="https://twitter.com/@amritokundu719">
     <img src="https://img.shields.io/badge/Follow%20on%20X-000000?style=for-the-badge&logo=x&logoColor=white"/>
   </a>
   <a href="https://www.facebook.com/Binaryhermit1234">
