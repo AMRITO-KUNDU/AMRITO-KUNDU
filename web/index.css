@@ -664,9 +664,8 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__photo {
     display: block;
-    width: 100%;
-    max-width: 48rem;
-    border-radius: 6px;
+    max-width: 100%;
+    height: auto;
 }
 
 @media(min-width: 901px) {
