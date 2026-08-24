@@ -260,6 +260,16 @@ body:not(.user-is-tabbing) a:focus {
     background: transparent;
 }
 
+.resume-btn {
+    margin-left: var(--gutter-small);
+}
+
+@media(max-width: 500px) {
+    .resume-btn {
+        margin: var(--gutter-small) 0 0;
+    }
+}
+
 .link__text {
     position: relative;
     display: inline-block;
@@ -405,7 +415,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
     background: linear-gradient(rgba(0,0,0, .1), rgba(0,0,0, .4)), 
-        url('./images/header.jpg');
+        url('./assets/header.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -650,6 +660,13 @@ body:not(.user-is-tabbing) a:focus {
 
 .about__photo-container {
     margin-bottom: var(--gutter-normal);
+}
+
+.about__photo {
+    display: block;
+    width: 100%;
+    max-width: 48rem;
+    border-radius: 6px;
 }
 
 @media(min-width: 901px) {
