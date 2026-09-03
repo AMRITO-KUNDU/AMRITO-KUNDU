@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <link rel="shortcut icon" type="image/png" href="./assets/favicon.png" />
 
   <title>
@@ -35,6 +35,9 @@
           </li>
           <li class="nav__item">
             <a href="#certifications" class="nav__link">Certifications</a>
+          </li>
+          <li class="nav__item">
+            <a href="#achievements" class="nav__link">Achievements</a>
           </li>
           <li class="nav__item">
             <a href="#built-with" class="nav__link">Tech Stacks</a>
@@ -181,27 +184,30 @@
               <h3>llmScribe</h3>
 
               <p>
-                A Python CLI/GUI tool that exports an entire codebase —
-                directory tree plus file contents — into one readable text
-                file. Built for sharing project context with AI coding
-                assistants.
+                Open-source Python tool that exports an entire codebase —
+                directory tree plus full file contents — into one LLM-ready
+                text file. Available on PyPI with CLI, GUI, and interactive
+                terminal interfaces.
               </p>
 
               <ul class="work__list">
                 <li>Python</li>
                 <li>Tkinter</li>
                 <li>CLI</li>
+                <li>PyPI</li>
               </ul>
 
               <div class="work__links">
                 <a
-                  href="https://dirscribe.vercel.app/"
+                  href="https://pypi.org/project/llmscribe/"
                   target="_blank"
                   rel="noopener noreferrer"
                   class="link__text"
                 >
-                  Visit Site <span>&rarr;</span>
+                  View on PyPI <span>&rarr;</span>
                 </a>
+
+               
 
                 <a
                   href="https://github.com/AMRITO-KUNDU/DirScribe"
@@ -222,7 +228,7 @@
               <img
                 src="./assets/project-3.png"
                 class="work__image"
-                alt="DirScribe"
+                alt="llmScribe"
               />
             </div>
           </div>
@@ -379,6 +385,76 @@
     </section>
 
 
+    <!-- ***** Achievements ***** -->
+
+    <section class="client" id="achievements">
+      <div class="row">
+        <h2>Achievements</h2>
+
+        <p class="ach-intro">
+          Highlights from platforms, building sessions, and recognition earned
+          while shipping real software.
+        </p>
+
+        <!--
+          Achievement list — same pattern as certificates.html
+          To add a new achievement, copy one <li class="cert-card"> block.
+        -->
+        <ul class="cert-list ach-list">
+
+          <li class="cert-card">
+            <h4>Published llmScribe on PyPI</h4>
+            <p>Python Package Index · 2026</p>
+            <p>
+              Released <strong>llmscribe</strong> as an installable open-source package —
+              export any project into an LLM-ready text file via CLI, GUI, or terminal menu.
+              Install with <code>pip install llmscribe</code>.
+            </p>
+            <a
+              href="https://pypi.org/project/llmscribe/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View on PyPI &rarr;
+            </a>
+          </li>
+
+          <li class="cert-card">
+            <h4>Replit 10th Birthday — Top 8% of Builders</h4>
+            <p>Replit · May 2026</p>
+            <p>
+              Ranked in the top 8% of all builders. Shipped 2 apps in a single day
+              with 64 AI agent interactions. Earned the title
+              <strong>Manager of Parallel Agent</strong> for high-output multitasking.
+            </p>
+            <a
+              href="./assets/certificates/Gmail - Your Replit Birthday Recap.PDF.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Recap &rarr;
+            </a>
+          </li>
+
+          <!--
+          Add more achievements by copying this block:
+
+          <li class="cert-card">
+            <h4>Your Achievement Title</h4>
+            <p>Platform · Date</p>
+            <p>Short description of what you earned or shipped.</p>
+            <a href="optional-link.pdf" target="_blank" rel="noopener noreferrer">
+              View Proof &rarr;
+            </a>
+          </li>
+          -->
+
+        </ul>
+
+      </div>
+    </section>
+
+
     <!-- ***** Tech Stacks ***** -->
 
     <section class="client" id="built-with">
@@ -511,7 +587,7 @@
 
             <p>
               Lately I've been deep in AI-assisted workflows — building
-              tools like DirScribe that help AI models understand codebases
+              tools like llmScribe that help AI models understand codebases
               faster, and products like Soros Alpha and NewsReels that put
               useful technology directly in front of users. I like taking a
               messy idea and turning it into something structured, fast,
