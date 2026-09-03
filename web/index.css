@@ -755,136 +755,92 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: var(--gutter-normal);
 }
 
-.ach-stats {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--gutter-small);
-    margin-bottom: var(--gutter-normal);
+.ach-list {
+    margin-top: var(--gutter-small);
 }
 
-.ach-stat {
-    border: 1px solid rgb(60, 59, 59);
-    border-radius: 6px;
-    padding: var(--gutter-small) var(--gutter-small-1);
-    text-align: center;
-    min-width: 14rem;
-    flex: 1 1 14rem;
-    max-width: 20rem;
-    transition: border-color .2s;
+/* Scoped so certificates page is not affected */
+.ach-list .cert-card {
+    overflow-wrap: break-word;
 }
 
-.ach-stat:hover {
-    border-color: var(--pink);
+.ach-list .cert-card a {
+    display: inline-block;
+    margin-top: 0.8rem;
 }
 
-.ach-stat__num {
-    display: block;
-    font-family: 'Jost', sans-serif;
-    font-size: var(--font-size-medium);
+.ach-list .cert-card code {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-size: 1.4rem;
     color: var(--pink);
-    line-height: var(--line-height-small);
-}
-
-.ach-stat__label {
-    display: block;
-    font-size: 1.5rem;
-    color: var(--white-1);
-    margin-top: .4rem;
-}
-
-.ach-badge-wrap {
-    margin-bottom: var(--gutter-normal);
 }
 
 .ach-badge {
     display: inline-flex;
     align-items: center;
-    gap: 1.2rem;
+    gap: 1rem;
     border: 1px solid var(--pink);
     background: var(--pink);
     color: var(--white);
-    padding: 1.2rem 2.2rem;
+    padding: 1rem 1.6rem;
     border-radius: 6px;
     max-width: 100%;
+    box-sizing: border-box;
 }
 
 .ach-badge__icon {
-    font-size: 2.4rem;
+    font-size: 2rem;
     line-height: 1;
+    flex-shrink: 0;
+}
+
+.ach-badge__text {
+    min-width: 0;
 }
 
 .ach-badge__title {
     display: block;
     font-family: 'Jost', sans-serif;
-    font-size: var(--font-size-small);
+    font-size: 1.5rem;
     font-weight: 400;
     color: var(--white);
+    line-height: 1.3;
 }
 
 .ach-badge__sub {
     display: block;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     opacity: .9;
     margin-top: .2rem;
+    line-height: 1.3;
 }
 
-.achievements__grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: var(--gutter-small-1);
-    margin-bottom: var(--gutter-normal);
-}
-
-.achievement-card {
-    border: 1px solid rgb(60, 59, 59);
-    border-radius: 6px;
-    padding: var(--gutter-small-1);
-    transition: border-color .2s;
-}
-
-.achievement-card:hover {
-    border-color: var(--pink);
-}
-
-.achievement-card h3 {
-    font-family: 'Jost', sans-serif;
-    color: var(--white);
-    font-size: var(--font-size-small);
-    margin-bottom: .6rem;
-}
-
-.achievement-card p {
-    font-size: 1.5rem;
-    margin: .4rem 0;
-    max-width: none;
-}
-
-.achievement-card .ach-tag {
-    display: inline-block;
-    margin-top: .8rem;
-    font-size: 1.3rem;
-    color: var(--pink);
-    border-bottom: 1px solid var(--pink);
-    padding-bottom: 1px;
-}
-
-.ach-pdf-btn {
-    margin-top: var(--gutter-small);
+.ach-badge--inline {
+    display: flex;
+    margin: 1rem 0 0.6rem;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 @media(max-width: 500px) {
-    .ach-stat {
-        min-width: 0;
-        max-width: none;
-        flex: 1 1 calc(50% - var(--gutter-small));
-    }
-
-    .ach-badge {
-        width: 100%;
-        box-sizing: border-box;
-    }
-
-    .achievements__grid {
+    .ach-list {
         grid-template-columns: 1fr;
+    }
+
+    .ach-badge,
+    .ach-badge--inline {
+        flex-direction: row;
+        align-items: center;
+        gap: 0.8rem;
+        padding: 0.9rem 1.2rem;
+        width: 100%;
+    }
+
+    .ach-badge__title {
+        font-size: 1.4rem;
+    }
+
+    .ach-badge__sub {
+        font-size: 1.2rem;
     }
 }
