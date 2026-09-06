@@ -1,47 +1,49 @@
 # Amrito Kundu
-**Software Engineer | AI Tools**
 
----
+### 🚀 Building software where AI meets real-world problems.
 
-### 👤 Professional Summary
+I’m a software engineer focused on **full-stack development, AI-powered tools, backend systems, and automation** — turning ideas into useful software that people can actually use.
 
-<img align="right" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="220" alt="Software Development GIF"/>
+<img align="right" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="220" alt="Software Development"/>
 
-I build practical software with a focus on full-stack development, AI-assisted workflows, and developer-focused tooling. I’m especially interested in turning messy ideas into structured, usable systems that solve real problems.
-
-- 🚀 **Currently:** Building full-stack products and experimenting with AI-driven workflows.
-- 🧠 **Learning:** System design, backend architecture, and product-focused engineering.
-- ⚡ **Approach:** Ship useful things, keep them simple, and improve through iteration.
+- 🧠 **Building:** Full-stack products and AI-driven workflows
+- ⚙️ **Working with:** Python, React, Node.js, Express, MySQL
+- 🔍 **Exploring:** AI engineering, system design, backend architecture, and automation
+- 🎯 **Principle:** Keep it simple. Make it useful. Improve it continuously.
 
 <br clear="right"/>
 
 ---
 
-## 🛠️ Tech Stack
+### 🛠️ Tech Stack
 
-### 💻 Languages
+#### 💻 Languages
+
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
 </p>
 
-### ⚙️ Frameworks & Libraries
+#### ⚛️ Frameworks & Libraries
+
 <p align="left">
-  <img src="https://img.shields.io/badge/React-181717?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
   <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/>
   <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white"/>
 </p>
 
-### 🗄️ Databases & Platforms
+#### ☁️ Platforms & Databases
+
 <p align="left">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
   <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=46E3B7"/>
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black"/>
 </p>
 
-### 🔧 Tools
+#### 🔧 Tools
+
 <p align="left">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
@@ -51,20 +53,27 @@ I build practical software with a focus on full-stack development, AI-assisted w
 
 ---
 
-## 🏗️ Focus Areas
+### 🎯 What I Focus On
 
-- **Full-Stack Development:** Building applications end-to-end with attention to usability, maintainability, and clear architecture.
-- **AI Workflows:** Exploring how AI can improve planning, automation, and developer productivity.
-- **Backend Systems:** Learning to design reliable APIs, data flows, and scalable application logic.
-- **Product Thinking:** Turning ideas into tools people can actually use.
+- 🚀 **Full-Stack Engineering**  
+  Building applications end-to-end with clean architecture, maintainable code, and thoughtful user experiences.
+
+- 🤖 **AI & Automation**  
+  Exploring practical ways to use AI to simplify workflows, automate repetitive tasks, and build smarter software.
+
+- ⚙️ **Backend Systems**  
+  Designing APIs, data flows, and application logic with reliability and scalability in mind.
+
+- 💡 **Product Engineering**  
+  Turning rough ideas into simple, useful products that solve real problems.
 
 ---
 
-## 🌐 Digital Presence
+### 🌐 Digital Presence
 
 <p align="left">
   <a href="https://x.com/amritokundu719">
-    <img src="https://img.shields.io/badge/Follow%20on%20X-000000?style=for-the-badge&logo=x&logoColor=white"/>
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/>
   </a>
   <a href="https://www.instagram.com/amritokundu719/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
@@ -76,14 +85,36 @@ I build practical software with a focus on full-stack development, AI-assisted w
 
 ---
 
-## 🌐 Portfolio
+### 💻 Developer Profiles
 
-For projects, detailed work, and additional information about my experience and skills, please refer to my **[portfolio](https://portfolio-website.amritokundu719.workers.dev/)**. You can also view my **[resume](./web/assets/Resume.pdf)**.
+<p align="left">
+  <a href="https://github.com/amrito-kundu">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  </a>
+  <a href="https://leetcode.com/u/amrito-kundu/">
+    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
+  </a>
+</p>
+
+---
+
+### 🔗 Portfolio & Resume
+
+Projects, detailed work, and additional information about my experience and skills are available here:
+
+<p align="left">
+  <a href="https://portfolio-website.amritokundu719.workers.dev/">
+    <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+  </a>
+  <a href="./web/assets/Resume.pdf">
+    <img src="https://img.shields.io/badge/Resume-555555?style=for-the-badge&logo=adobeacrobatreader&logoColor=white"/>
+  </a>
+</p>
 
 ---
 
 <p align="center">
-  <i>Simple • Useful • Built to learn, refined to last</i>
+  <b>🚀 Build simply • ⚙️ Ship thoughtfully • 🧠 Keep improving</b>
 </p>
 
 <!-- Collaborative profile update -->
