@@ -1,71 +1,72 @@
 # Amrito Kundu
 
-### 🚀 Building software where AI meets real-world problems.
+### 🎧 Vibe coding with a systems brain.
 
-I’m a software engineer focused on **full-stack development, AI-powered tools, backend systems, and automation** — turning ideas into useful software that people can actually use.
+I build software by **directing AI like a dev team**: I bring the architecture, the product thinking, and the Python; AI helps write the code. I'm not a "syntax guy". I'm the person who knows *what* to build, *how it fits together*, and *how to ship it so it scales*.
 
-<img align="right" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="220" alt="Software Development"/>
+<img align="right" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="220" alt="Vibe coding"/>
 
-- 🧠 **Building:** Full-stack products and AI-driven workflows
-- ⚙️ **Working with:** Python, React, Node.js, Express, MySQL
-- 🔍 **Exploring:** AI engineering, system design, backend architecture, and automation
-- 🎯 **Principle:** Keep it simple. Make it useful. Improve it continuously.
+- 🎵 **Style:** Vibe coding, describe the idea, steer the AI, review, ship
+- 🐍 **Hands-on language:** Python
+- 🏗️ **Strong at:** System architecture, scalable design, deployment
+- 🤖 **Exploring:** AI engineering, agents, and automation
+- 🎯 **Principle:** Keep it simple. Make it useful. Ship, then improve.
 
 <br clear="right"/>
 
 ---
 
+### ⚡ How I Vibe Code
+
+```text
+💡 Idea  →  🗺️ Architecture  →  🤖 Prompt the AI  →  🔍 Review & test  →  🚀 Deploy  →  🔁 Iterate
+```
+
+1. **Design first.** I sketch the system (services, data flow, database, APIs) before a single prompt.
+2. **Prompt with intent.** Clear context, constraints, and goals get far better code than "make it work".
+3. **Review like an engineer.** I read what the AI writes, question it, and test it.
+4. **Deploy early.** Real users and real logs teach more than any tutorial.
+5. **Iterate constantly.** Small, fast improvements beat big rewrites.
+
+---
+
 ### 🛠️ Tech Stack
 
-#### 💻 Languages
+#### 🐍 Language
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-</p>
+![Python](https://skillicons.dev/icons?i=python)
 
-#### ⚛️ Frameworks & Libraries
+#### 🤖 AI & Vibe Coding Tools
 
-<p align="left">
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white"/>
+![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
 
-</p>
+#### ☁️ Deployment & Data
 
-#### ☁️ Platforms & Databases
-
-<p align="left">
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black"/>
-</p>
+![Stack](https://skillicons.dev/icons?i=mysql,docker,vercel)
+![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
 
 #### 🔧 Tools
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
-</p>
+![Tools](https://skillicons.dev/icons?i=git,github)
 
 ---
 
 ### 🎯 What I Focus On
 
-- 🚀 **Full-Stack Engineering**  
-  Building applications end-to-end with clean architecture, maintainable code, and thoughtful user experiences.
+- 🎵 **Vibe Coding & AI-Assisted Development**
+  Turning ideas into working software fast by pairing clear thinking with AI code generation.
 
-- 🤖 **AI & Automation**  
-  Exploring practical ways to use AI to simplify workflows, automate repetitive tasks, and build smarter software.
+- 🏗️ **System Architecture**
+  Designing how the pieces fit: APIs, databases, queues, and services, built to grow without breaking.
 
-- ⚙️ **Backend Systems**  
-  Designing APIs, data flows, and application logic with reliability and scalability in mind.
+- 🚀 **Scalable Deployment**
+  Containerizing, deploying, and monitoring apps so they run reliably beyond my laptop.
 
-- 💡 **Product Engineering**  
-  Turning rough ideas into simple, useful products that solve real problems.
+- 🤖 **AI Engineering & Automation**
+  Building AI-powered tools and workflows that remove repetitive work.
+
+- 💡 **Product Thinking**
+  Rough idea in, simple and useful product out.
 
 ---
 
@@ -100,8 +101,6 @@ I’m a software engineer focused on **full-stack development, AI-powered tools,
 
 ### 🔗 Portfolio & Resume
 
-Projects, detailed work, and additional information about my experience and skills are available here:
-
 <p align="left">
   <a href="https://portfolio-website.amritokundu719.workers.dev/">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white"/>
@@ -114,7 +113,5 @@ Projects, detailed work, and additional information about my experience and skil
 ---
 
 <p align="center">
-  <b>🚀 Build simply • ⚙️ Ship thoughtfully • 🧠 Keep improving</b>
+  <b>🎧 Vibe it • 🏗️ Architect it • 🚀 Ship it • 🔁 Improve it</b>
 </p>
-
-<!-- Collaborative profile update -->
