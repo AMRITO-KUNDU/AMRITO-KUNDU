@@ -1,27 +1,33 @@
 # Amrito Kundu
 
-### 🎧 Vibe coding with a systems brain.
+### 🎧 Vibe coder. Python. AI-assisted development.
 
-I build software by **directing AI like a dev team**: I bring the architecture, the product thinking, and the Python; AI helps write the code.
+I build software by describing the idea, steering AI, reviewing the code, and shipping. I don't limit myself to one stack. Python is my main language, and I use AI to work with other languages and tools when needed.
 
 <img align="right" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="220" alt="Vibe coding"/>
 
-- 🎵 **Style:** Vibe coding, describe the idea, steer the AI, review, ship
-- 🐍 **Hands-on language:** Python
-- 🏗️ **Strong at:** System architecture, scalable design, deployment
-- 🤖 **Exploring:** AI engineering, agents, and automation
+- 🎵 **Style:** Vibe coding — describe, steer, review, ship
+- 🐍 **Main language:** Python
+- 🏗️ **Strengths:** System design, AI-assisted development, deployment, problem solving
+- 🤖 **Exploring:** AI engineering, agents, automation
 - 🎯 **Principle:** Keep it simple. Make it useful. Ship, then improve.
 
 <br clear="right"/>
 
 ---
 
-### 🛠️ Tech Stack
+### 🧠 What I Do
 
-![Python](https://skillicons.dev/icons?i=python,mysql,docker,vercel,git,github)
+- Write Python for tools, scripts, and backends.
+- Design how a system fits together before building.
+- Use AI to write code in other languages and frameworks.
+- Deploy and ship working products.
 
-![Claude](https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=claude&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=black)
+---
+
+### 📁 My Work
+
+All my projects are in my pinned portfolio — check it out below.
 
 ---
 
