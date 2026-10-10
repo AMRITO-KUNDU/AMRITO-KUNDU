@@ -40,7 +40,7 @@ All my projects are in my pinned portfolio — check it out below.
   <a href="https://www.instagram.com/amritokundu719/">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
-  <a href="https://portfolio-website.amritokundu719.workers.dev/">
+  <a href="https://amritokundu-portfolio.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white"/>
   </a>
 </p>
