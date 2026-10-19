@@ -1,8 +1,8 @@
 # Amrito Kundu
 
-> Self-taught developer and vibe coder. Python is my main language; I design, build and ship AI-powered apps and developer tools.
+> AI product builder and AI-assisted developer. Python is my main language; I design, build and ship AI-powered apps and developer tools. Open to internships and roles.
 
-Amrito Kundu is a self-taught developer who builds software by describing an idea, steering AI, reviewing the code, and shipping. Python is his hands-on language, and he orchestrates other languages, frameworks and platforms with AI assistance. His work spans AI tools, developer tooling, and consumer apps — most with a live demo.
+Amrito Kundu is a self-taught AI product builder and AI-assisted developer — a vibe coder at heart — who builds software by describing an idea, steering AI, reviewing the code, and shipping. Python is his hands-on language, and he orchestrates other languages, frameworks and platforms with AI assistance. His work spans AI tools, developer tooling, and consumer apps — most with a live demo.
 
 ## Projects
 
