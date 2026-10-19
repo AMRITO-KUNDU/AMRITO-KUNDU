@@ -844,3 +844,10 @@ body:not(.user-is-tabbing) a:focus {
         font-size: 1.2rem;
     }
 }
+
+/* ----- Brand logos (certifications row) ----- */
+
+.client__logo img.cert-logo {
+    height: 5.4rem;
+    width: auto;
+}
