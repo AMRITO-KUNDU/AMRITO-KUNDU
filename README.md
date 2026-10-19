@@ -1,8 +1,10 @@
 # Amrito Kundu
 
-### 🎧 Vibe coder. Python. AI-assisted development.
+### 🚀 AI product builder. Python. AI-assisted development — a vibe coder at heart.
 
 I build software by describing the idea, steering AI, reviewing the code, and shipping. I don't limit myself to one stack. Python is my main language, and I use AI to work with other languages and tools when needed.
+
+**Open to internships and roles.**
 
 <img align="right" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif" width="220" alt="Vibe coding"/>
 

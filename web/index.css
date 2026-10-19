@@ -851,3 +851,17 @@ body:not(.user-is-tabbing) a:focus {
     height: 5.4rem;
     width: auto;
 }
+
+/* ----- Hero availability badge ----- */
+
+.header__text .hero__availability {
+    display: inline-block;
+    margin: 0 0 var(--gutter-normal);
+    padding: 0.6rem 1.6rem;
+    border: 1px solid var(--pink);
+    border-radius: 999px;
+    font-family: 'Hk Grotesk', sans-serif;
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-small);
+    color: var(--white);
+}
