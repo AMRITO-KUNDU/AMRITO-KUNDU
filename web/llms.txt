@@ -1,0 +1,28 @@
+# Amrito Kundu
+
+> Self-taught developer and vibe coder. Python is my main language; I design, build and ship AI-powered apps and developer tools.
+
+Amrito Kundu is a self-taught developer who builds software by describing an idea, steering AI, reviewing the code, and shipping. Python is his hands-on language, and he orchestrates other languages, frameworks and platforms with AI assistance. His work spans AI tools, developer tooling, and consumer apps — most with a live demo.
+
+## Projects
+
+- Vidgrab 2.0 — Video downloader for YouTube and Facebook (videos, Shorts, Reels). Search with instant previews; download MP4 up to 1080p or MP3. React + Vite, Node.js, MeTube-powered extraction, Docker-ready. https://github.com/AMRITO-KUNDU/Video-downloader
+- LuminaBG — Hybrid AI background remover with seven engines: a zero-upload browser engine, the remove.bg cloud API, and open-source models (U2-Net, ISNet, BiRefNet) on Hugging Face ZeroGPU. React 19 + Vite. https://github.com/AMRITO-KUNDU/Image-Background-Remover
+- Scoop — Family-admin app that turns school emails, WhatsApp threads and newsletters into one structured plan using Groq tool-calling, with calendar export and Google Calendar/Tasks sync via Composio. Silver Award, CSC Back-to-School Hackathon; selected for Hackyard Build 2026 at IIT Guwahati. https://github.com/AMRITO-KUNDU/Scoop
+- llmScribe — Open-source Python tool that turns any codebase into clean, structured, deterministic data for LLMs (no AI, no embeddings). Dependency- and git-aware; ships as a CLI, GUI and hosted MCP server. On PyPI, Apache-2.0. https://github.com/AMRITO-KUNDU/llmscribe
+- walliq — Cross-platform wallpaper hub: a Flutter app and a zero-dependency web client driven by a single static JSON index on GitHub, served via jsDelivr. No backend. https://github.com/AMRITO-KUNDU/walliq
+- Munin — RSS-powered news reader gathering live headlines from ~110 Indian newsrooms, with a feed view, a reels-style stack, and topic browsing. Reading state lives in localStorage; no account or backend. React 19 + TanStack Start. https://github.com/AMRITO-KUNDU/Munin
+
+## Recognition
+
+- CSC Back-to-School Hackathon — Silver Award (2nd Place) for Scoop.
+- Hackyard Build 2026 — Selected Builder, in-person round at IIT Guwahati.
+- Replit 10th Birthday — Top 8% of builders.
+
+## Links
+
+- Portfolio: https://amritokundu-portfolio.vercel.app/
+- GitHub: https://github.com/AMRITO-KUNDU
+- X: https://x.com/amritokundu719
+- Instagram: https://www.instagram.com/amritokundu719/
+- Email: amritokundu719@gmail.com
