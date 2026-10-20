@@ -769,6 +769,10 @@ body:not(.user-is-tabbing) a:focus {
     margin-top: 0.8rem;
 }
 
+.ach-list .cert-card a + a {
+    margin-left: 1.6rem;
+}
+
 .ach-list .cert-card code {
     font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
     font-size: 1.4rem;
