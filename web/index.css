@@ -986,3 +986,33 @@ body:not(.user-is-tabbing) a:focus {
     display: inline-block;
     margin-top: var(--gutter-normal);
 }
+
+
+/* --------------------------------------- */
+/* ----- Case-study header links ----- */
+/* --------------------------------------- */
+
+.cs-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.2rem;
+    margin-top: var(--gutter-normal);
+}
+
+.cs-links .link__text {
+    padding: 1rem 2rem;
+    border: 1px solid var(--pink);
+    border-radius: 6px;
+    line-height: 1;
+}
+
+.cs-links .link__text::after {
+    display: none;
+}
+
+.cs-links .link__text:hover,
+.cs-links .link__text:focus {
+    background: var(--pink);
+    color: var(--white);
+}
