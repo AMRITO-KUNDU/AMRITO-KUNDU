@@ -869,3 +869,126 @@ body:not(.user-is-tabbing) a:focus {
     line-height: var(--line-height-small);
     color: var(--white);
 }
+
+
+/* --------------------------------------- */
+/* ----- Skills (grouped, no logo wall) ----- */
+/* --------------------------------------- */
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--gutter-normal) var(--gutter-medium);
+    margin-top: var(--gutter-normal);
+}
+
+.skills__title {
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--pink);
+    margin-bottom: 1rem;
+}
+
+.skills__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .8rem;
+}
+
+.skills__list li {
+    font-size: 1.4rem;
+    line-height: 1;
+    padding: .6rem 1.2rem;
+    border: 1px solid rgb(60, 59, 59);
+    border-radius: 999px;
+    color: var(--white-1);
+}
+
+/* --------------------------------------- */
+/* ----- Case-study links on the homepage ----- */
+/* --------------------------------------- */
+
+.work__result {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.5rem;
+    color: var(--pink);
+    margin: 0 0 1rem;
+}
+
+.work__casestudy {
+    display: inline-block;
+    margin-top: var(--gutter-normal);
+}
+
+/* --------------------------------------- */
+/* ----- Case-study pages ----- */
+/* --------------------------------------- */
+
+.cs-lede {
+    font-family: 'Jost', sans-serif;
+    font-size: var(--font-size-medium);
+    max-width: var(--container-medium-width);
+}
+
+.cs-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gutter-small) var(--gutter-medium);
+    margin: var(--gutter-small) 0 var(--gutter-normal);
+}
+
+.cs-meta dt {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: var(--pink);
+}
+
+.cs-meta dd {
+    font-size: 1.5rem;
+    margin: .3rem 0 0;
+    max-width: 40rem;
+}
+
+.cs-hero {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: var(--gutter-normal) 0 var(--gutter-huge);
+    border: 1px solid rgb(60, 59, 59);
+    border-radius: 6px;
+}
+
+.cs-section {
+    padding: 0 0 var(--gutter-medium);
+    border-bottom: none;
+}
+
+.cs-section h2 {
+    font-size: var(--font-size-medium-1);
+    margin-bottom: var(--gutter-small);
+}
+
+.cs-section p,
+.cs-decisions {
+    max-width: var(--container-medium-width);
+}
+
+.cs-decisions {
+    margin: var(--gutter-small) 0;
+    padding-left: 2rem;
+}
+
+.cs-decisions li {
+    margin: .8rem 0;
+}
+
+.cs-back {
+    display: inline-block;
+    margin-top: var(--gutter-normal);
+}

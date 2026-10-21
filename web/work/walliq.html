@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="../assets/favicon.png" />
+
+  <title>walliq — Case Study | Amrito Kundu</title>
+
+  <meta
+    name="description"
+    content="A cross-platform wallpaper hub with no backend to run."
+  />
+  <meta name="author" content="Amrito Kundu" />
+  <meta name="theme-color" content="#000000" />
+
+  <link rel="canonical" href="https://amritokundu-portfolio.vercel.app/work/walliq.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:site_name" content="Amrito Kundu" />
+  <meta property="og:title" content="walliq — Case Study | Amrito Kundu" />
+  <meta property="og:description" content="A cross-platform wallpaper hub with no backend to run." />
+  <meta property="og:url" content="https://amritokundu-portfolio.vercel.app/work/walliq.html" />
+  <meta property="og:image" content="https://amritokundu-portfolio.vercel.app/assets/og-image.png?v=3" />
+  <meta property="og:image:type" content="image/png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="walliq — Case Study | Amrito Kundu" />
+  <meta name="twitter:description" content="A cross-platform wallpaper hub with no backend to run." />
+  <meta name="twitter:image" content="https://amritokundu-portfolio.vercel.app/assets/og-image.png?v=3" />
+  <meta name="twitter:creator" content="@amritokundu719" />
+
+  <link rel="stylesheet" href="../index.css" />
+</head>
+
+<body>
+
+  <header role="banner" id="top" style="padding: var(--gutter-normal) 0;">
+    <div class="row">
+
+      <a href="../index.html#work" class="cert-back link__text">
+        &larr; Back to Portfolio
+      </a>
+
+      <h1 style="font-size: var(--font-size-large); margin-top: var(--gutter-small);">
+        walliq
+      </h1>
+
+      <p class="cs-lede">A cross-platform wallpaper hub with no backend to run.</p>
+
+      <dl class="cs-meta">
+        <div>
+          <dt>Role</dt>
+          <dd>Solo &mdash; design, build, ship</dd>
+        </div>
+        <div>
+          <dt>Stack</dt>
+          <dd>Flutter, JavaScript, GitHub CDN</dd>
+        </div>
+        <div>
+          <dt>Status</dt>
+          <dd>Live</dd>
+        </div>
+      </dl>
+
+      <div class="work__links">
+        <a
+          href="https://walliq.amritokundu719.workers.dev/"
+          class="link__text"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Visit Site <span>&rarr;</span>
+        </a>
+        <a
+          href="https://github.com/AMRITO-KUNDU/wallpapers-CDN"
+          class="link__text"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View CDN source <span>&rarr;</span>
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <main role="main">
+    <div class="row">
+
+      <img
+        src="../assets/project-4.png"
+        class="cs-hero"
+        alt="walliq screenshot"
+      />
+
+      <section class="cs-section">
+        <h2>The problem</h2>
+        <p>Wallpaper apps normally need a server and a database just to serve images and a catalog — cost and maintenance for something that barely changes.</p>
+      </section>
+
+      <section class="cs-section">
+        <h2>What I built</h2>
+        <p>A Flutter mobile app and a zero-dependency web client, both driven by a single static JSON index hosted on GitHub and served through jsDelivr. Drop images into a folder, push, and a GitHub Action regenerates the catalog. It includes auto light/dark theming, favorites and pinch-zoom.</p>
+      </section>
+
+      <section class="cs-section">
+        <h2>Key decisions</h2>
+        <ul class="cs-decisions">
+          <li>Used GitHub + jsDelivr as the backend — zero infrastructure to run, secure or pay for.</li>
+          <li>Kept one JSON contract so the Flutter app and the web client stay in sync from a single source of truth.</li>
+        </ul>
+      </section>
+
+      <section class="cs-section">
+        <h2>Result</h2>
+        <p>Live as both a web app and a Flutter build, with the catalog kept current automatically by CI instead of by hand.</p>
+      </section>
+
+      <a href="../index.html#work" class="btn btn--pink cs-back">
+        Back to all work
+      </a>
+
+    </div>
+  </main>
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <p>&copy; 2026 Amrito Kundu.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
