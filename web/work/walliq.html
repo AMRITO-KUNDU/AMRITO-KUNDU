@@ -55,10 +55,6 @@
 
       <dl class="cs-meta">
         <div>
-          <dt>Role</dt>
-          <dd>Solo &mdash; design, build, ship</dd>
-        </div>
-        <div>
           <dt>Stack</dt>
           <dd>Flutter, JavaScript, GitHub CDN</dd>
         </div>
@@ -102,14 +98,14 @@
 
       <section class="cs-section">
         <h2>What I built</h2>
-        <p>A Flutter mobile app and a zero-dependency web client, both driven by a single static JSON index hosted on GitHub and served through jsDelivr. Drop images into a folder, push, and a GitHub Action regenerates the catalog. It includes auto light/dark theming, favorites and pinch-zoom.</p>
+        <p>A mobile app and a zero-dependency web client, both driven by a single static catalog hosted on GitHub. Drop images into a folder, push, and the catalog regenerates itself. It includes auto light/dark theming, favorites and pinch-zoom.</p>
       </section>
 
       <section class="cs-section">
         <h2>Key decisions</h2>
         <ul class="cs-decisions">
-          <li>Used GitHub + jsDelivr as the backend — zero infrastructure to run, secure or pay for.</li>
-          <li>Kept one JSON contract so the Flutter app and the web client stay in sync from a single source of truth.</li>
+          <li>Used static hosting as the backend — zero infrastructure to run, secure or pay for.</li>
+          <li>Kept one shared catalog contract so the mobile app and the web client stay in sync from a single source of truth.</li>
         </ul>
       </section>
 
