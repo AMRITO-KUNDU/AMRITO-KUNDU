@@ -912,12 +912,6 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Case-study links on the homepage ----- */
 /* --------------------------------------- */
 
-.work__result {
-    font-family: 'Jost', sans-serif;
-    font-size: 1.5rem;
-    color: var(--pink);
-    margin: 0 0 1rem;
-}
 
 .work__casestudy {
     display: inline-block;
