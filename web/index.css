@@ -859,7 +859,8 @@ body:not(.user-is-tabbing) a:focus {
 /* ----- Hero availability badge ----- */
 
 .header__text .hero__availability {
-    display: inline-block;
+    display: block;
+    width: fit-content;
     margin: 0 0 var(--gutter-normal);
     padding: 0.6rem 1.6rem;
     border: 1px solid var(--pink);

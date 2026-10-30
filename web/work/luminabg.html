@@ -10,7 +10,7 @@
 
   <meta
     name="description"
-    content="A hybrid AI background remover that refuses to lock you into one engine."
+    content="Seven background-removal engines in one app — including one that never uploads your image."
   />
   <meta name="author" content="Amrito Kundu" />
   <meta name="theme-color" content="#000000" />
@@ -21,7 +21,7 @@
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Amrito Kundu" />
   <meta property="og:title" content="LuminaBG — Case Study | Amrito Kundu" />
-  <meta property="og:description" content="A hybrid AI background remover that refuses to lock you into one engine." />
+  <meta property="og:description" content="Seven background-removal engines in one app — including one that never uploads your image." />
   <meta property="og:url" content="https://amritokundu-portfolio.vercel.app/work/luminabg.html" />
   <meta property="og:image" content="https://amritokundu-portfolio.vercel.app/assets/og-image.png?v=3" />
   <meta property="og:image:type" content="image/png" />
@@ -31,7 +31,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="LuminaBG — Case Study | Amrito Kundu" />
-  <meta name="twitter:description" content="A hybrid AI background remover that refuses to lock you into one engine." />
+  <meta name="twitter:description" content="Seven background-removal engines in one app — including one that never uploads your image." />
   <meta name="twitter:image" content="https://amritokundu-portfolio.vercel.app/assets/og-image.png?v=3" />
   <meta name="twitter:creator" content="@amritokundu719" />
 
@@ -51,7 +51,7 @@
         LuminaBG
       </h1>
 
-      <p class="cs-lede">A hybrid AI background remover that refuses to lock you into one engine.</p>
+      <p class="cs-lede">Seven background-removal engines in one app — including one that never uploads your image.</p>
 
       <dl class="cs-meta">
         <div>
@@ -93,30 +93,31 @@
 
       <section class="cs-section">
         <h2>The problem</h2>
-        <p>Most background removers force one model or one paid API on you — and many upload your image to a server even when a quick browser-only pass would have done the job.</p>
+        <p>Background removal looks solved until you use it for real. The best-quality model is slow, the fastest one mangles hair, and most tools quietly upload your image to someone else's server to do it. Pick one engine and you inherit whichever trade-off it made.</p>
       </section>
 
       <section class="cs-section">
         <h2>What I built</h2>
-        <p>An app that offers seven engines per image: a zero-upload browser engine (your image never leaves the tab), a cloud API, and several open-source models. It adds a before/after compare view, optional alpha matting for hair and fur, and transparent-PNG export.</p>
+        <p>An app that runs seven engines side by side and lets you choose per image — a zero-upload mode that processes entirely inside the browser tab, hosted models for the hardest edges, and a one-click cloud option. It adds a before/after compare view, alpha matting for hair and fur, and transparent-PNG export.</p>
       </section>
 
       <section class="cs-section">
         <h2>How I built it</h2>
-        <p>React 19 + Vite on the front end. Background removal runs across seven engines — a zero-upload in-browser model, the remove.bg cloud API, and open-source models (U2-Net, ISNet, BiRefNet) hosted on Hugging Face ZeroGPU.</p>
+        <p>React 19 + Vite on the front end, with the in-browser engine running segmentation locally in the tab. The heavier models — U2-Net, ISNet and BiRefNet — run on Hugging Face ZeroGPU, and remove.bg covers the no-setup path. Every engine is normalised behind one input/output contract.</p>
       </section>
 
       <section class="cs-section">
         <h2>Key decisions</h2>
         <ul class="cs-decisions">
-          <li>Made engine choice a first-class feature instead of hiding it — quality, speed and privacy are genuinely different needs.</li>
-          <li>Offered a fully local option so privacy-sensitive users never have to trust a server with their image.</li>
+          <li>Made engine choice a first-class control instead of picking for the user — quality, speed and privacy are genuinely different jobs.</li>
+          <li>Built the in-browser engine first, because "your image never leaves this tab" is a promise no hosted API can make.</li>
+          <li>Normalised every engine behind one contract, so adding an eighth is a plugin rather than a rewrite.</li>
         </ul>
       </section>
 
       <section class="cs-section">
         <h2>Result</h2>
-        <p>Shipped, with a growing set of stars on GitHub. The point was to show that a single app can serve privacy, speed and quality rather than picking one for the user.</p>
+        <p>Shipped and open source, with stars on GitHub. The interesting part is not the cutout — it is proving that one app can serve privacy, speed and quality at once instead of asking the user to pick a compromise.</p>
       </section>
 
       <a href="../index.html#work" class="btn btn--pink cs-back">

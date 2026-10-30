@@ -10,7 +10,7 @@
 
   <meta
     name="description"
-    content="An open-source tool that turns any codebase into clean, structured data for LLMs."
+    content="An open-source tool that turns a local codebase into structured, deterministic context for coding agents."
   />
   <meta name="author" content="Amrito Kundu" />
   <meta name="theme-color" content="#000000" />
@@ -21,7 +21,7 @@
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Amrito Kundu" />
   <meta property="og:title" content="llmScribe — Case Study | Amrito Kundu" />
-  <meta property="og:description" content="An open-source tool that turns any codebase into clean, structured data for LLMs." />
+  <meta property="og:description" content="An open-source tool that turns a local codebase into structured, deterministic context for coding agents." />
   <meta property="og:url" content="https://amritokundu-portfolio.vercel.app/work/llmscribe.html" />
   <meta property="og:image" content="https://amritokundu-portfolio.vercel.app/assets/og-image.png?v=3" />
   <meta property="og:image:type" content="image/png" />
@@ -31,7 +31,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="llmScribe — Case Study | Amrito Kundu" />
-  <meta name="twitter:description" content="An open-source tool that turns any codebase into clean, structured data for LLMs." />
+  <meta name="twitter:description" content="An open-source tool that turns a local codebase into structured, deterministic context for coding agents." />
   <meta name="twitter:image" content="https://amritokundu-portfolio.vercel.app/assets/og-image.png?v=3" />
   <meta name="twitter:creator" content="@amritokundu719" />
 
@@ -51,7 +51,7 @@
         llmScribe
       </h1>
 
-      <p class="cs-lede">An open-source tool that turns any codebase into clean, structured data for LLMs.</p>
+      <p class="cs-lede">An open-source tool that turns a local codebase into structured, deterministic context for coding agents.</p>
 
       <dl class="cs-meta">
         <div>
@@ -93,30 +93,31 @@
 
       <section class="cs-section">
         <h2>The problem</h2>
-        <p>Feeding a codebase to an LLM usually means copy-pasting files by hand or running a black-box tool that hides what it actually includes.</p>
+        <p>Coding agents don't have an intelligence problem, they have a retrieval problem. On a large codebase they read hundreds of files to change one line, re-read the same files in a loop, and miss the file that actually mattered, because the context going into the window is unstructured.</p>
       </section>
 
       <section class="cs-section">
         <h2>What I built</h2>
-        <p>llmScribe maps a project, searches it, and retrieves exactly what you need — no AI, no embeddings, no hidden ranking. It is dependency- and git-aware, works on local folders or public GitHub repos without cloning, and ships as a command-line tool, a desktop app and a hosted server for AI agents.</p>
+        <p>An MCP server that gives agents a small, deterministic toolset instead of free-form file reading: map a project without dumping its contents, search paths and contents, read one file or many, trace dependencies in both directions, inspect the git diff, and export an overview. Nothing is inferred, embedded or ranked, and every truncation is reported.</p>
       </section>
 
       <section class="cs-section">
         <h2>How I built it</h2>
-        <p>Pure Python, published on PyPI under Apache-2.0. One core powers three interfaces: a CLI, a Tkinter GUI, and a hosted MCP server for AI agents.</p>
+        <p>Pure Python, published on PyPI under Apache-2.0. One core engine powers three interfaces — a CLI, a desktop GUI and a local stdio MCP server — so behaviour stays identical everywhere.</p>
       </section>
 
       <section class="cs-section">
         <h2>Key decisions</h2>
         <ul class="cs-decisions">
-          <li>Kept the output deterministic and transparent — plain structured text, so you can see exactly what goes to the model.</li>
-          <li>Shipped three interfaces — command line, desktop and server — from one core so it fits both humans and agents.</li>
+          <li>Kept the output deterministic and transparent: same input, same bytes, and every cut reported, so you can see exactly what goes to the model.</li>
+          <li>Made it local-only, so a private codebase never has to be uploaded to a service to be read.</li>
+          <li>Shipped three interfaces from one core so it fits both humans and agents.</li>
         </ul>
       </section>
 
       <section class="cs-section">
         <h2>Result</h2>
-        <p>Open-source and published on PyPI under Apache-2.0, with stars on GitHub and real use as an MCP server. It is the project that best shows the Python-plus-system-design side of how I work.</p>
+        <p>Open-source on PyPI under Apache-2.0 and listed on the official MCP Registry, with stars on GitHub and real use as an MCP server. It is the project that best shows the Python-plus-system-design side of how I work.</p>
       </section>
 
       <a href="../index.html#work" class="btn btn--pink cs-back">

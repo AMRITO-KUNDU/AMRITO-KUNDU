@@ -10,7 +10,7 @@
 
   <meta
     name="description"
-    content="A news reader for Indian newsrooms."
+    content="One calm feed for about 110 Indian newsrooms."
   />
   <meta name="author" content="Amrito Kundu" />
   <meta name="theme-color" content="#000000" />
@@ -21,7 +21,7 @@
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Amrito Kundu" />
   <meta property="og:title" content="Munin — Case Study | Amrito Kundu" />
-  <meta property="og:description" content="A news reader for Indian newsrooms." />
+  <meta property="og:description" content="One calm feed for about 110 Indian newsrooms." />
   <meta property="og:url" content="https://amritokundu-portfolio.vercel.app/work/munin.html" />
   <meta property="og:image" content="https://amritokundu-portfolio.vercel.app/assets/og-image.png?v=3" />
   <meta property="og:image:type" content="image/png" />
@@ -31,7 +31,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Munin — Case Study | Amrito Kundu" />
-  <meta name="twitter:description" content="A news reader for Indian newsrooms." />
+  <meta name="twitter:description" content="One calm feed for about 110 Indian newsrooms." />
   <meta name="twitter:image" content="https://amritokundu-portfolio.vercel.app/assets/og-image.png?v=3" />
   <meta name="twitter:creator" content="@amritokundu719" />
 
@@ -51,7 +51,7 @@
         Munin
       </h1>
 
-      <p class="cs-lede">A news reader for Indian newsrooms.</p>
+      <p class="cs-lede">One calm feed for about 110 Indian newsrooms.</p>
 
       <dl class="cs-meta">
         <div>
@@ -85,30 +85,30 @@
 
       <section class="cs-section">
         <h2>The problem</h2>
-        <p>Following many Indian newsrooms means juggling dozens of apps and feeds, with no calm way to read across all of them.</p>
+        <p>Keeping up with Indian news means a dozen tabs, three apps and a group chat forwarding screenshots. Nothing reads well across outlets, and nothing remembers what you already saw.</p>
       </section>
 
       <section class="cs-section">
         <h2>What I built</h2>
-        <p>Munin gathers live headlines from roughly 110 Indian newsrooms and lays them out in one feed — read it as a feed, a reels-style stack, or by topic. Save stories, follow the newsrooms you trust, and write your own take; bookmarks, history, posts and theme are kept on your device.</p>
+        <p>Munin pulls live headlines from around 110 Indian newsrooms and lays them out three ways — a chronological feed, a reels-style stack for skimming, and topic browsing. You can follow the outlets you trust, save stories for later, and write your own take on anything you read.</p>
       </section>
 
       <section class="cs-section">
         <h2>How I built it</h2>
-        <p>React 19 + TanStack Start with SSR, pulling headlines from ~110 RSS feeds server-side, with reading state kept in localStorage.</p>
+        <p>React 19 + TanStack Start with SSR. Feeds are fetched and normalised server-side so the browser never talks to a dozen RSS endpoints, and reading state is persisted locally so a session survives a refresh.</p>
       </section>
 
       <section class="cs-section">
         <h2>Key decisions</h2>
         <ul class="cs-decisions">
-          <li>No accounts and no backend — reading state is kept on your device, so there is nothing to sign up for.</li>
-          <li>Offered several reading modes (feed / reels / topic) because people read news differently depending on the moment.</li>
+          <li>Normalised every feed on the server — doing it client-side would have meant a dozen CORS failures and a slow first paint.</li>
+          <li>Built three reading modes because skimming, browsing and deep reading are different jobs.</li>
         </ul>
       </section>
 
       <section class="cs-section">
         <h2>Result</h2>
-        <p>An account-free reader built on React 19 + TanStack Start with SSR, pulling a genuinely wide set of Indian newsrooms into one place.</p>
+        <p>Live, with a catalogue of around 110 newsrooms and three reading modes over one normalised feed.</p>
       </section>
 
       <a href="../index.html#work" class="btn btn--pink cs-back">
