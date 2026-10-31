@@ -36,6 +36,7 @@
 
     --black: #000;
     --pink: #ff3258;
+    --pink-accessible-fill: #c81036;
     --white: #f0e9f2;
     --white-1: #e5e5e6da;
 
@@ -247,7 +248,8 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .btn--pink {
-    background: var(--pink);
+    background: var(--pink-accessible-fill);
+    color: var(--white);
     transition: all 0.2s;
 }
 
@@ -784,7 +786,7 @@ body:not(.user-is-tabbing) a:focus {
     align-items: center;
     gap: 1rem;
     border: 1px solid var(--pink);
-    background: var(--pink);
+    background: var(--pink-accessible-fill);
     color: var(--white);
     padding: 1rem 1.6rem;
     border-radius: 6px;
@@ -814,7 +816,7 @@ body:not(.user-is-tabbing) a:focus {
 .ach-badge__sub {
     display: block;
     font-size: 1.3rem;
-    opacity: .9;
+    opacity: 1;
     margin-top: .2rem;
     line-height: 1.3;
 }
