@@ -23,7 +23,7 @@ Amrito Kundu is a self-taught AI product builder and AI-assisted developer — a
 ## Links
 
 - Portfolio: https://amritokundu-portfolio.vercel.app/
-- LinkedIn: https://www.linkedin.com/in/amrito-kundu-41715544a
+- LinkedIn: https://www.linkedin.com/in/amrito-kundu
 - GitHub: https://github.com/AMRITO-KUNDU
 - X: https://x.com/amritokundu719
 - Instagram: https://www.instagram.com/amritokundu719/
