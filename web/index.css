@@ -1038,3 +1038,26 @@ body:not(.user-is-tabbing) a:focus {
         margin-top: var(--gutter-small);
     }
 }
+
+
+/* ----- Live GitHub star count ----- */
+
+.gh-stars {
+    display: inline-flex;
+    align-items: center;
+    gap: .6rem;
+    margin: 0 0 1.2rem;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: var(--pink);
+}
+
+.gh-stars__icon {
+    font-size: 1.5rem;
+    line-height: 1;
+}
+
+.gh-stars__count {
+    font-weight: 700;
+}
