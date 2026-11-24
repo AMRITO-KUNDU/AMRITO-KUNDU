@@ -10,7 +10,7 @@
 
   <meta
     name="description"
-    content="A family-admin app that turns school chaos into one plan."
+    content="One inbox for every account you are accountable to."
   />
   <meta name="author" content="Amrito Kundu" />
   <meta name="theme-color" content="#000000" />
@@ -21,7 +21,7 @@
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="Amrito Kundu" />
   <meta property="og:title" content="Scoop — Case Study | Amrito Kundu" />
-  <meta property="og:description" content="A family-admin app that turns school chaos into one plan." />
+  <meta property="og:description" content="One inbox for every account you are accountable to." />
   <meta property="og:url" content="https://amritokundu-portfolio.vercel.app/work/scoop.html" />
   <meta property="og:image" content="https://amritokundu-portfolio.vercel.app/assets/og-image.png?v=3" />
   <meta property="og:image:type" content="image/png" />
@@ -31,7 +31,7 @@
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Scoop — Case Study | Amrito Kundu" />
-  <meta name="twitter:description" content="A family-admin app that turns school chaos into one plan." />
+  <meta name="twitter:description" content="One inbox for every account you are accountable to." />
   <meta name="twitter:image" content="https://amritokundu-portfolio.vercel.app/assets/og-image.png?v=3" />
   <meta name="twitter:creator" content="@amritokundu719" />
 
@@ -51,18 +51,18 @@
         Scoop
       </h1>
 
-      <p class="cs-lede">A family-admin app that turns school chaos into one plan.</p>
+      <p class="cs-lede">One inbox for every account you are accountable to.</p>
 
       <dl class="cs-meta">
         <div>
           <dt>Stack</dt>
-          <dd>TanStack Start, Groq, TypeScript, Composio</dd>
+          <dd>TanStack Start, TypeScript, Composio, PostgreSQL, Expo</dd>
         </div>
       </dl>
 
       <div class="work__links cs-links">
         <a
-          href="https://scoop-topaz.vercel.app/"
+          href="https://scoopfamily.xyz/"
           class="link__text"
           target="_blank"
           rel="noopener noreferrer"
@@ -93,30 +93,34 @@
 
       <section class="cs-section">
         <h2>The problem</h2>
-        <p>School life arrives as a mess of emails, WhatsApp threads and newsletters. Deadlines, permission slips and events get missed because nothing turns that stream into a single list.</p>
+        <p>The problem is not information, it is checking. Gmail for the school notice, Slack for work, Teams because one client lives there, Discord for a single server, Instagram because someone DMs instead of texting, a calendar half the invitations never reach, a booking page checked from memory. Each app is easy. Together they cost a dozen context switches a day, and every one starts with the same question: is there anything in here? Usually there is not, and you still had to look.</p>
       </section>
 
       <section class="cs-section">
         <h2>What I built</h2>
-        <p>Paste any of those sources and Scoop uses AI tool-calling — not chat — to pull events, deadlines, tasks and RSVPs into one editable list. It has Today/This-Week filters, calendar export, and Google Calendar/Tasks sync.</p>
+        <p>Nine connected sources — Gmail, Outlook, Slack, Microsoft Teams, Discord, Instagram, Google Calendar, Cal.com and Google Meet — read through Composio and normalised into one feed. Each row says where it came from, what it says, and whether it is at risk, awaiting your reply, scheduled or handled. Google Calendar and Google Tasks are the destinations for anything you decide to act on.</p>
+        <p>Three behaviours matter more than the count. It ignores you: your own sent mail, your own messages and your own Instagram DMs are filtered before they reach the list. It forgets: delete the email, cancel the event, drop the booking, and the item leaves the plan. And it is honest: every connector declares its trigger, read and action capabilities, and the card states where a platform has no real-time events instead of implying it does.</p>
       </section>
 
       <section class="cs-section">
         <h2>How I built it</h2>
-        <p>TanStack Start with TypeScript for the end-to-end flow, Groq for the tool-calling that turns text into structured events, and Composio for Google Calendar/Tasks sync.</p>
+        <p>TanStack Start with TypeScript and Tailwind for the web app, with an Expo client reading the same API. Clerk handles authentication; PostgreSQL stores plan items, with pglite for local development. Composio brokers every OAuth, so the app never holds a provider token.</p>
+        <p>Real-time delivery uses Composio trigger instances and a webhook endpoint that verifies an HMAC signature over the webhook id, timestamp and body before anything is written. Gmail, Google Calendar, Outlook and Slack push events; Discord polls one channel you name; Teams, Instagram and Cal.com have no stream to subscribe to, so those refresh on sync. Two structures do the heavy lifting: a connector registry where one entry describes an app and every list in the app derives from it, and a reconciliation pass that removes rows whose source item no longer exists.</p>
       </section>
 
       <section class="cs-section">
         <h2>Key decisions</h2>
         <ul class="cs-decisions">
-          <li>Chose tool-calling over a chat interface — the job is structured extraction, not conversation.</li>
-          <li>Built the whole flow in one stack so the path from raw text to a calendar-ready event stays predictable end to end.</li>
+          <li><strong>Removed the AI.</strong> The first version extracted tasks from pasted text with a language model. It produced confident nonsense — flagging a routine security notice as needing immediate review — on a problem the app could read directly. Deleting it made the product smaller and truer: every item now comes from a record.</li>
+          <li><strong>Delete on absence only when absence is proven.</strong> Removing an item because it was not in a read is wrong if the read was capped at fifty, if the connector cannot read at all, or if the provider returned an empty page by accident. Reconciliation requires a complete read, a read-capable connector and a non-empty result.</li>
+          <li><strong>Read-only by default.</strong> SCOOP reads your accounts. It creates calendar events and tasks only when asked, and never replies, edits or marks anything handled on your behalf.</li>
+          <li><strong>Say what it cannot do.</strong> One line on a connector card — "no event stream, refreshes on sync" — prevents a support thread and a broken promise.</li>
         </ul>
       </section>
 
       <section class="cs-section">
         <h2>Result</h2>
-        <p>Silver Award (2nd Place) at the CSC Back-to-School Hackathon, and selected for the Hackyard Build 2026 in-person round at IIT Guwahati from thousands of applicants.</p>
+        <p>Silver Award (2nd Place) at the CSC Back-to-School Hackathon, and selected for the Hackyard Build 2026 in-person round at IIT Guwahati from thousands of applicants. The submission has since grown well past the hackathon entry: nine working integrations behind one capability model, real-time delivery for the four sources that support it, reconciliation, and web and mobile clients on the same API.</p>
       </section>
 
       <a href="../index.html#work" class="btn btn--pink cs-back">
